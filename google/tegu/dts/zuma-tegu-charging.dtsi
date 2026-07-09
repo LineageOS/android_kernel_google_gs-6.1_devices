@@ -17,7 +17,7 @@
 				google,main-chg-psy-name = "main-charger";
 				google,buck-chg-psy-name = "rt9471";
 
-				google,buck_chg_en = <&max77779_sgpio 7 GPIO_ACTIVE_LOW>;
+				google,buck_chg_en-gpio = <&max77779_sgpio 7 GPIO_ACTIVE_LOW>;
 			};
 
 		};

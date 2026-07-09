@@ -9,7 +9,7 @@
 /* system use cases */
 &max77779_chg {
 	/* external boost */
-	max77779,extbst-ctl = <&rt9471_gpio 0 GPIO_ACTIVE_HIGH>; /* RT9470 USB_OTG */
+	max77779,extbst-ctl-gpio = <&rt9471_gpio 0 GPIO_ACTIVE_HIGH>; /* RT9470 USB_OTG */
 
 	/* for OTG related usecase*/
 	max77779,rx-to-rx-otg-en; /* support RX -> RX+OTG */

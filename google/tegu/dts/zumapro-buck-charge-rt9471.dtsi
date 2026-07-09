@@ -11,8 +11,8 @@ rt_swchg: rt-swchg@5b {
 	reg = <0x5b>;
 	status = "okay";
 
-	rt,intr_gpio = <&max77779_sgpio 6 GPIO_ACTIVE_LOW>;
-	rt,ceb_gpio = <&max77779_sgpio 7 GPIO_ACTIVE_LOW>;
+	rt,intr-gpio = <&max77779_sgpio 6 GPIO_ACTIVE_LOW>;
+	rt,ceb-gpio = <&max77779_sgpio 7 GPIO_ACTIVE_LOW>;
 	rt9471_gpio: rt9471_gpio {
 		gpio-controller;
 		#gpio-cells = <2>;
